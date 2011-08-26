@@ -45,6 +45,6 @@ Perhaps - however it has not been tested.
 
 == Developers ==
 
-The code to add this tab and show the dropdown area (or drawer) has been generalized and should be easily used by other plugins. Also attached as a core patch to Trac:
+This plugin is now actively developed in GitHub. Fork it and contribute:
 
-http://core.trac.wordpress.org/attachment/ticket/9657/screen-meta-sample-code.txt
+https://github.com/crowdfavorite/wp-drafts-dropdown
