@@ -4,7 +4,7 @@
 Plugin Name: Drafts Dropdown 
 Plugin URI: http://crowdfavorite.com/wordpress/plugins/drafts-dropdown/ 
 Description: Easy access to your WordPress drafts from the admin bar. Drafts are listed in a slide-down menu.
-Version: 2.0
+Version: 2.0.1
 Author: Crowd Favorite
 Author URI: http://crowdfavorite.com
 */
@@ -90,7 +90,7 @@ function cfdd_footer() {
 	max-height: 400px;
 	overflow: auto;
 	padding: 15px 0;
-	position: absolute;
+	position: fixed;
 	top: 28px;
 	width: 100%;
 	z-index: 100;
