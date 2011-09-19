@@ -3,7 +3,7 @@ Contributors: alexkingorg, crowdfavorite
 Tags: draft, drafts, post, admin, access, shortcut
 Requires at least: 3.2
 Tested up to: 3.2.1
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 
 Adds a Drafts tab to the admin bar so that you can quickly access your draft blog posts.
 
@@ -33,6 +33,9 @@ Perhaps - however it has not been tested.
 2. Here are the draft posts - w00T!
 
 == Changelog ==
+
+= 2.0.2 =
+* Enable drawer on post add/edit screen.
 
 = 2.0.1 =
 * Keep drawer from scrolling when open.
