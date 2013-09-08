@@ -78,9 +78,9 @@ function cfdd_footer() {
 ?>
 <style type="text/css">
 #cfdd_drafts_wrap {
-	background: #444;
-	border-top: 1px solid #999;
-	border-bottom: 5px solid #666;
+	background: #333;
+	border-top: 1px solid #333;
+	border-bottom: 5px solid #333;
 	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.8), inset 0px 0px 4px rgba(0,0,0,0.5);
 	box-shadow: 0px 2px 4px rgba(0,0,0,0.8), inset 0px 0px 4px rgba(0,0,0,0.5);
 	color: #fff;
@@ -96,7 +96,7 @@ function cfdd_footer() {
 	z-index: 100;
 }
 #cfdd_drafts_wrap.loading {
-	background: #444 url(<?php echo admin_url('images/wpspin_dark.gif'); ?>) no-repeat center center;
+	background: #333 url(<?php echo admin_url('images/wpspin_dark.gif'); ?>) no-repeat center center;
 }
 #cfdd_drafts_wrap .cfdd_content {
 	visibility: hidden;
@@ -106,7 +106,7 @@ function cfdd_footer() {
 	color: #fff;
 }
 #cfdd_drafts_wrap .cfdd_col {
-	border-right: 1px solid #777;
+	border-right: 1px solid #666;
 	float: left;
 	margin: 0 0 0 15px;
 	padding-right: 15px;
