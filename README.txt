@@ -51,6 +51,6 @@ Perhaps - however it has not been tested.
 
 == Developers ==
 
-This plugin is now actively developed in GitHub. Fork it and contribute:
+This plugin is now actively developed on GitHub. Fork it and contribute:
 
 https://github.com/crowdfavorite/wp-drafts-dropdown
