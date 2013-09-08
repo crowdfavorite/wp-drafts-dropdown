@@ -93,7 +93,7 @@ function cfdd_footer() {
 	position: fixed;
 	top: 28px;
 	width: 100%;
-	z-index: 100;
+	z-index: 99999;
 }
 #cfdd_drafts_wrap.loading {
 	background: #333 url(<?php echo admin_url('images/wpspin_dark.gif'); ?>) no-repeat center center;
