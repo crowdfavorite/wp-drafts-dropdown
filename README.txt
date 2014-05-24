@@ -1,9 +1,9 @@
 === Drafts Dropdown ===
-Contributors: alexkingorg, crowdfavorite
+Contributors: alexkingorg, crowdfavorite, syberspace
 Tags: draft, drafts, post, admin, access, shortcut
-Requires at least: 3.2
-Tested up to: 3.2.1
-Stable tag: 2.0.2
+Requires at least: 3.8
+Tested up to: 3.9.1
+Stable tag: 3.0.0
 
 Adds a Drafts tab to the admin bar so that you can quickly access your draft blog posts.
 
@@ -23,7 +23,7 @@ Wish you had quicker access to your draft posts and pages? Tired of having to cl
 
 Yes.
 
-= Does this work on versions of WordPress prior to 3.2? =
+= Does this work on versions of WordPress prior to 3.8? =
 
 Perhaps - however it has not been tested.
 
@@ -33,6 +33,12 @@ Perhaps - however it has not been tested.
 2. Here are the draft posts - w00T!
 
 == Changelog ==
+= 3.0.0=
+* Complete code overhaul
+* AJAX overhaul ( now does only send metadata, not full html )
+* Fixed slideDown followed by slideUp ( now only does slideDown )
+* Restyled Columns ( number of columns can now be adjusted in css file )
+* Moved script and style to seperate files ( allows for caching with plugins like W3 Total Cache)
 
 = 2.0.2 =
 * Enable drawer on post add/edit screen.
