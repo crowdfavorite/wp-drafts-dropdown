@@ -59,7 +59,7 @@ if ( !class_exists( 'WP_DraftsDropdown' ) ):
 			}
 		}
 		
-		function init() {
+		static function init() {
 			load_plugin_textdomain( 'drafts-dropdown' );
 			
 			wp_enqueue_script( 'drafts-dropdown', self::get_url() . 'js/drafts-dropdown.js', array( 'jquery' ) );
