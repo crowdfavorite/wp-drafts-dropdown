@@ -1,15 +1,15 @@
 <?php
 
 /*
-Plugin Name: Drafts Dropdown 
-Plugin URI: http://crowdfavorite.com/wordpress/plugins/drafts-dropdown/ 
+Plugin Name: Drafts Dropdown
+Plugin URI: http://crowdfavorite.com/wordpress/plugins/drafts-dropdown/
 Description: Easy access to your WordPress drafts from the admin bar. Drafts are listed in a slide-down menu.
 Version: 2.0.2
 Author: Crowd Favorite
 Author URI: http://crowdfavorite.com
 */
 
-// Copyright (c) 2009-2011 
+// Copyright (c) 2009-2011
 //   Crowd Favorite, Ltd. - http://crowdfavorite.com
 //   Alex King - http://alexking.org
 // All rights reserved.
@@ -22,26 +22,26 @@ Author URI: http://crowdfavorite.com
 // **********************************************************************
 // This program is distributed in the hope that it will be useful, but
 // WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 // **********************************************************************
 
 // ini_set('display_errors', '1'); ini_set('error_reporting', E_ALL);
 
 load_plugin_textdomain('drafts-dropdown');
 
-function cfdd_get_drafts() {	
+function cfdd_get_drafts() {
 	$args = array(
 	  'public' => true,
 	);
 	$post_types = get_post_types($args, 'names');
-	$query = array( 
-		'post_type' => $post_types, 
+	$query = array(
+		'post_type' => $post_types,
 		'post_status' => 'draft',
 		'posts_per_page' => 100,
 		'order' => 'DESC',
 		'orderby' => 'modified',
 	);
-	
+
 	$drafts = new WP_Query($query);
 	return $drafts->posts;
 }
@@ -93,7 +93,7 @@ function cfdd_footer() {
 	position: fixed;
 	top: 28px;
 	width: 100%;
-	z-index: 100;
+	z-index: 1000;
 }
 #cfdd_drafts_wrap.loading {
 	background: #444 url(<?php echo admin_url('images/wpspin_dark.gif'); ?>) no-repeat center center;
